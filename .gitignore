@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Virtual Environment (Python)
+venv/
+.venv/
+ENV/
+env/
+
+# Editor & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Vercel deployment metadata
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
